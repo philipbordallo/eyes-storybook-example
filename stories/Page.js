@@ -4,6 +4,8 @@ import PropTypes from 'prop-types';
 import { Header } from './Header';
 import './page.css';
 
+import { Button } from '@storybook/components'
+
 export const Page = ({ user, onLogin, onLogout, onCreateAccount }) => (
   <article>
     <Header user={user} onLogin={onLogin} onLogout={onLogout} onCreateAccount={onCreateAccount} />
